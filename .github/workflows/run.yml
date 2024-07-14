@@ -8,7 +8,7 @@ jobs:
   Codety_Static_Code_Analysis:
     runs-on: ubuntu-latest
     container:
-      image: codetyio/codety:0.001
+      image: codetyio/codety:0.002
     steps:
 #      - uses: actions/checkout@main
       - run: ls -ls
