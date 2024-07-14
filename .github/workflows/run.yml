@@ -1,0 +1,15 @@
+name: Codety
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "**" ]
+jobs:
+  Codety_Static_Code_Analysis:
+    runs-on: ubuntu-latest
+    container:
+      image: codetyio/codety:0.00
+    steps:
+      - uses: actions/checkout@main
+      - run: ls -ls
+
