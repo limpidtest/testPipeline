@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ "**" ]
 jobs:
-  Crun_pipe2:
+  Codety_pipe2:
     runs-on: ubuntu-latest
     container:
       image: codetyio/codety:0.002
